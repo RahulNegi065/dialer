@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: rgb(21, 150, 255);
+}
+
+.dialPad {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 560px;
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.display {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 3.75rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#input {
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(0, 132, 255);
+}
+
+.keyPad {
+    display: flex;
+    position: relative;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+.keyPad div {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 50px;
+    margin: 15px 25px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.keyPad div span:nth-child(1) {
+    font-size: 2.5rem;
+}
+
+.keyPad div span:nth-child(2) {
+    font-size: 1rem;
+    color: rgb(128, 128, 128);
+}
+
+.dialBT {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(58, 173, 58, 0.952);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dialBT .fas {
+    font-size: 25px;
+    color: white;
+}
+
+.nan .fas {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.74);
+}
+
+.backspace .fas {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.788);
+}
+
+.far {
+    font-size: 25px;
+}
+
